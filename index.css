@@ -1,0 +1,140 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Red+Hat+Display:wght@500&display=swap');
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    padding: 0 0 0 0;
+    color: hsl(224, 23%, 55%);
+    font-family: Red Hat Display;
+    font-weight: 500, 700, 900;
+}
+.items-con{
+    width: 65%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate( -50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 70px rgb(131, 129, 129);
+}
+.items-con .hero-img img{
+    width: 100%;
+    border-radius: 20px 20px 0 0px;
+}
+.text-details{
+    font-size: 15px;
+    padding: 5px 0 20px 0;
+    justify-items: center;
+    text-align: center;
+}
+.text-details p{
+    font-size: 18px;
+    color:  hsl(223, 47%, 23%);
+}
+.para-details{
+    padding: 10px 30px 10px 30px;
+}
+.plan{
+    display: flex;
+    padding: 10px;
+    
+}
+.plan .state{
+    float: right;
+}
+.music-img{
+    width: 30%;
+    margin: auto;
+    padding: 0 0 0 30px;
+}
+.time{
+    width: 30%;
+    margin: auto;
+}
+.annual{
+    color: hsl(223, 47%, 23%);
+}
+.state{
+    width: 30%;
+    margin: auto;
+    
+    padding: 0 30px 0 0;
+}
+.change{
+    float: right;
+}
+.state .change a{
+    
+    color: hsl(245, 75%, 52%);
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.btn button{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 15px 20% 15px 20%;
+   
+}
+.cancel-con{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+@media(min-width:37px5){
+    .items-con{
+        width: 70%;
+    }
+}@media(min-width:500px){
+    .items-con{
+        width: 55%;
+    }
+}
+@media(min-width:600px){
+    .items-con{
+        width: 50%;
+    }
+}
+@media(min-width:660px){
+    .items-con{
+        width: 45%;
+    }
+}
+@media(min-width:720px){
+    .items-con{
+        width: 40%;
+    }
+}
+@media(min-width:810px){
+    .items-con{
+        width: 38%;
+    }
+}
+@media(min-width:920px){
+    .items-con{
+        width: 35%;
+    }
+}
+@media(min-width:1020){
+    .items-con{
+        width: 30%;
+    }
+}
+@media(min-width:1080){
+    .items-con{
+        width: 28%;
+    }
+}
+@media(min-width:1120px){
+    .items-con{
+        width: 28%;
+    }
+}
